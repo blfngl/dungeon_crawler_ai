@@ -1,0 +1,31 @@
+
+Nick Mirasol
+Stuetzle CSC3335
+2/20/2019
+
+Project One - Problem Formulation
+
+1) States
+
+All valid configurations of the dungeon: rooms, dragon location, sword location, agent location, etc.
+
+2) Actions
+
+Move to a new room.
+
+3) Transition model
+
+State(Location, Move(Direction)) => State(New Location)
+
+4) Goal test
+
+a) Does the agent have the sword?
+b) Has the agent defeated the dragon?
+c) Did the dragon drop the key?
+d) Has the agent located and moved to the exit?
+
+If all have been completed, the agent has reached its goal.
+
+5) Path cost
+
+Each room traversal: +1.
